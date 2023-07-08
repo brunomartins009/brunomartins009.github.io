@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("font/static/Montserrat-SemiBold.ttf") format("woff2"),
+       url("font/Montserrat-VariableFont_wght.ttf") format("woff");
+}
+
+/* Estilos gerais */
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #140310;
+  color: #fff;
+
+  .container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Estilos das seções */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin: 0;
+}
+
+
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/wallpaperflare.com_wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 250px;
+
+
+}
+
+.sobre {
+  padding: 50px 0;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.futebol {
+  padding: 50px 0;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.games {
+  padding: 50px 0;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.viagens {
+  padding: 50px;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.filmes {
+  padding: 50px;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.musica {
+  padding: 50px;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.academico {
+  padding: 50px;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .column h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  
+  
+  .column p {
+    margin-bottom: 20px;
+  }
+  
+}
+
+.rodape {
+  padding: 50px;
+  
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #1a021b;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Define a altura para ocupar toda a altura da janela de visualização */
+}
+
