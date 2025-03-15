@@ -1,7 +1,8 @@
 {
-  "name": "projeto2",
+  "name": "bruno_portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "portifolio_v1/",
   "type": "module",
   "scripts": {
     "dev": "vite",
