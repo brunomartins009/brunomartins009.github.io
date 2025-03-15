@@ -2,7 +2,7 @@
   "name": "bruno_portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "portifolio_v1/",
+  "homepage": "portifolio_V1/",
   "type": "module",
   "scripts": {
     "dev": "vite",
